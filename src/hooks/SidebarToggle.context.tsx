@@ -13,11 +13,11 @@ export type SidebarToggleProps = {
 };
 
 export const sidebarToggleContext = createContext<SidebarToggleContext>({
-  isOpen: true,
+  isOpen: false,
   setIsOpen: noop,
 });
 export const SidebarToggleProvider: FC<SidebarToggleProps> = (props) => {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const value = useMemo(() => ({ isOpen, setIsOpen }), [isOpen]);
 
   return (
