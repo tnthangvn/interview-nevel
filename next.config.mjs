@@ -1,15 +1,14 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.NODE_ENV === 'production' ? '/interview-nevel' : '';
 const nextConfig = {
   distDir: 'docs',
   output: 'export',
-  webpackFinal: async (config) => {
-    if (config.resolve) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-      };
-    }
-    return config;
-  },
+  basePath,
+  images: {
+    unoptimized: true,
+    loader: "imgix",
+    path: "https://tnthangvn.github.io/",
+  }
 };
 
 export default nextConfig;
