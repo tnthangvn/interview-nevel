@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const link = cva(
   [
-    'h-full border-b-[3px] border-b-white/0 text-sm text-black/40 transition-all duration-300 ease-in-out',
+    'h-full whitespace-break-spaces border-b-[3px] border-b-white/0 text-sm text-black/40 transition-all duration-300 ease-in-out',
     'hover:text-black',
   ],
   {

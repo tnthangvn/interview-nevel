@@ -29,11 +29,13 @@ const link = cva(
   }
 );
 
+// TODO: Toggle menu
 export const GuestHeader: FC<GuestHeaderProps> = (props) => (
   <div className={cn('fixed left-0 top-0 w-full bg-black/60 z-header', props.className)}>
     <div className="container flex items-center justify-between">
       <span className="i-logo py-[13px] text-logo text-white" />
-      <ul className="flex h-full flex-row gap-[42px]">
+      <span className="i-hamburger cursor-pointer py-[13px] text-xl text-white md:hidden" />
+      <ul className="flex h-full flex-row gap-[42px] max-md:hidden">
         {props.menus.map((menu, idx) => (
           <li key={Number(idx)} className={cn(link({ type: menu.active ? 'active' : null }))}>
             <Link href={menu.link ?? '#'}>{menu.name}</Link>

@@ -70,10 +70,10 @@ export const GuestFooter: FC<GuestFooterProps> = (props) => (
     <div className="flex flex-wrap justify-between gap-y-5 border-t border-t-black/10 pt-[101px] max-xl:flex-col max-md:flex-col-reverse max-md:pt-11">
       <div className="w-full pr-0 md:w-auto">
         <span className="i-logo py-[13px] text-[30px] text-[#A59E9E] max-md:hidden" />
-        <p className="mt-3 whitespace-break-spaces pt-0.5 text-[11.63px] leading-4 text-black/40">
+        <p className="mt-3 whitespace-break-spaces pt-0.5 text-[11.44px] leading-4 text-black/40 md:text-[11.63px]">
           Valletta Buildings, South Street,{'\n'}Valletta - VLT 1103 Malta
         </p>
-        <ul className="flex list-none gap-4 pt-10">
+        <ul className="flex list-none gap-4 pt-8 md:pt-10">
           {socials.map((social, idx) => (
             <li
               key={Number(idx)}
@@ -99,7 +99,7 @@ export const GuestFooter: FC<GuestFooterProps> = (props) => (
             </div>
           ))}
           <CommonAccordion
-            className="flex w-full flex-col gap-x-8 md:hidden"
+            className="flex w-full flex-col gap-x-8 md:hidden [&_button[type=button]]:px-0 [&_button[type=button]]:py-[30px]"
             collapsible={false}
             items={accordionMenu}
             orientation="horizontal"
@@ -107,7 +107,7 @@ export const GuestFooter: FC<GuestFooterProps> = (props) => (
         </div>
       </div>
     </div>
-    <div className="mt-[50px] border-t border-t-black/10 pt-10">
+    <div className="mt-[50px] border-t border-t-black/10 pt-10 max-md:hidden">
       <p>COPYRIGHT © 2015-2024 ALL RIGHTS RESERVED.</p>
     </div>
   </footer>
