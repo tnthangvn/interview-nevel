@@ -95,39 +95,39 @@
 @layer base {
   @font-face {
     font-family: 'PingFang SC';
-    src: url('/fonts/PingFang-SC-Light'), local('PingFang-SC-Light');
+    src: url('/interview-nevel/fonts/PingFang-SC-Light'), local('PingFang-SC-Light');
     font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'PingFang SC';
-    src: url('/fonts/PingFang-SC-Regular'), local('PingFang-SC-Regular');
+    src: url('/interview-nevel/fonts/PingFang-SC-Regular'), local('PingFang-SC-Regular');
     font-weight: 400;
     font-style: normal;
   }
 
   /* @font-face {
     font-family: 'PingFang SC';
-    src: url('/fonts/PingFang-SC-SemiBold'), local('PingFang-SC-SemiBold');
+    src: url('/interview-nevel/fonts/PingFang-SC-SemiBold'), local('PingFang-SC-SemiBold');
     font-weight: 600;
     font-style: normal;
   } */
 
   @font-face {
     font-family: 'PingFang SC';
-    src: url('/fonts/PingFang-SC-Bold'), local('PingFang-SC-Bold');
+    src: url('/interview-nevel/fonts/PingFang-SC-Bold'), local('PingFang-SC-Bold');
     font-weight: 700;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'interview-icon';
-    src:  url('/fonts/interview-icon.eot?i5thqt');
-    src:  url('/fonts/interview-icon.eot?i5thqt#iefix') format('embedded-opentype'),
-      url('/fonts/interview-icon.ttf?i5thqt') format('truetype'),
-      url('/fonts/interview-icon.woff?i5thqt') format('woff'),
-      url('/fonts/interview-icon.svg?i5thqt#interview-icon') format('svg');
+    src:  url('/interview-nevel/fonts/interview-icon.eot?i5thqt');
+    src:  url('/interview-nevel/fonts/interview-icon.eot?i5thqt#iefix') format('embedded-opentype'),
+      url('/interview-nevel/fonts/interview-icon.ttf?i5thqt') format('truetype'),
+      url('/interview-nevel/fonts/interview-icon.woff?i5thqt') format('woff'),
+      url('/interview-nevel/fonts/interview-icon.svg?i5thqt#interview-icon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;

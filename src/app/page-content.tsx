@@ -9,16 +9,41 @@ import { Label } from '@/components/ui/label';
 import { Guest } from '@/layouts/guest';
 
 const sliders = [
-  { src: '/images/top/kv/kv.png', mode: { pc: true } },
-  { src: '/images/top/kv/kv.png', mode: { pc: true } },
-  { src: '/images/top/kv/kv.png', mode: { pc: true } },
-  { src: '/images/top/kv/kv.png', mode: { pc: true } },
-  { src: '/images/top/kv/kv.png', mode: { pc: true } },
-  { src: '/images/top/kv/kv-2.png', name: 'Chicky Run', link: '#', mode: { sp: true } },
-  { src: '/images/top/kv/kv-2.png', name: 'Chicky Run', link: '#', mode: { sp: true } },
-  { src: '/images/top/kv/kv-2.png', name: 'Chicky Run', link: '#', mode: { sp: true } },
-  { src: '/images/top/kv/kv-2.png', name: 'Chicky Run', link: '#', mode: { sp: true } },
-  { src: '/images/top/kv/kv-2.png', name: 'Chicky Run', link: '#', mode: { sp: true } },
+  { src: '/interview-nevel/images/top/kv/kv.png', mode: { pc: true } },
+  { src: '/interview-nevel/images/top/kv/kv.png', mode: { pc: true } },
+  { src: '/interview-nevel/images/top/kv/kv.png', mode: { pc: true } },
+  { src: '/interview-nevel/images/top/kv/kv.png', mode: { pc: true } },
+  { src: '/interview-nevel/images/top/kv/kv.png', mode: { pc: true } },
+  {
+    src: '/interview-nevel/images/top/kv/kv-2.png',
+    name: 'Chicky Run',
+    link: '#',
+    mode: { sp: true },
+  },
+  {
+    src: '/interview-nevel/images/top/kv/kv-2.png',
+    name: 'Chicky Run',
+    link: '#',
+    mode: { sp: true },
+  },
+  {
+    src: '/interview-nevel/images/top/kv/kv-2.png',
+    name: 'Chicky Run',
+    link: '#',
+    mode: { sp: true },
+  },
+  {
+    src: '/interview-nevel/images/top/kv/kv-2.png',
+    name: 'Chicky Run',
+    link: '#',
+    mode: { sp: true },
+  },
+  {
+    src: '/interview-nevel/images/top/kv/kv-2.png',
+    name: 'Chicky Run',
+    link: '#',
+    mode: { sp: true },
+  },
 ];
 
 const menuSidebar = [
@@ -30,8 +55,8 @@ const menuSidebar = [
 const games = [
   {
     name: 'Mahjong Ways',
-    banner: '/images/top/games/mahjong-ways.png',
-    thumbnail: '/images/top/games/mahjong-ways-thumbnail.png',
+    banner: '/interview-nevel/images/top/games/mahjong-ways.png',
+    thumbnail: '/interview-nevel/images/top/games/mahjong-ways-thumbnail.png',
     link: '#',
     description: '4TECH™ has just launched their very first Mahjong inspired slot machine gam…',
     level: 'MEDIUM',
@@ -41,8 +66,8 @@ const games = [
   },
   {
     name: 'Wild Bandito',
-    banner: '/images/top/games/wild-bandito.png',
-    thumbnail: '/images/top/games/wild-bandito-thumbnail.png',
+    banner: '/interview-nevel/images/top/games/wild-bandito.png',
+    thumbnail: '/interview-nevel/images/top/games/wild-bandito-thumbnail.png',
     link: '#',
     description: '4TECH™ has just launched their very\nfirst Mahjong inspired slot machine gam…',
     level: 'MEDIUM',
@@ -52,8 +77,8 @@ const games = [
   },
   {
     name: 'Mahjong Ways',
-    banner: '/images/top/games/mahjong-ways.png',
-    thumbnail: '/images/top/games/mahjong-ways-thumbnail.png',
+    banner: '/interview-nevel/images/top/games/mahjong-ways.png',
+    thumbnail: '/interview-nevel/images/top/games/mahjong-ways-thumbnail.png',
     link: '#',
     description: '4TECH™ has just launched their very\nfirst Mahjong inspired slot machine gam…',
     level: 'MEDIUM',
@@ -63,8 +88,8 @@ const games = [
   },
   {
     name: 'Wild Bandito',
-    banner: '/images/top/games/wild-bandito.png',
-    thumbnail: '/images/top/games/wild-bandito-thumbnail.png',
+    banner: '/interview-nevel/images/top/games/wild-bandito.png',
+    thumbnail: '/interview-nevel/images/top/games/wild-bandito-thumbnail.png',
     link: '#',
     description: '4TECH™ has just launched their very\nfirst Mahjong inspired slot machine gam…',
     level: 'MEDIUM',
@@ -74,8 +99,8 @@ const games = [
   },
   {
     name: 'Tree Of Fortune',
-    banner: '/images/top/games/tree-of-fortune.png',
-    thumbnail: '/images/top/games/tree-of-fortune-thumb.png',
+    banner: '/interview-nevel/images/top/games/tree-of-fortune.png',
+    thumbnail: '/interview-nevel/images/top/games/tree-of-fortune-thumb.png',
     link: '#',
     description: 'Legend has it that a farmer was granted a seed from a deity.',
     level: 'MEDIUM',
@@ -85,8 +110,8 @@ const games = [
   },
   {
     name: 'Tree Of Fortune',
-    banner: '/images/top/games/tree-of-fortune.png',
-    thumbnail: '/images/top/games/tree-of-fortune-thumb.png',
+    banner: '/interview-nevel/images/top/games/tree-of-fortune.png',
+    thumbnail: '/interview-nevel/images/top/games/tree-of-fortune-thumb.png',
     link: '#',
     description: 'Legend has it that a farmer was granted a seed from a deity.',
     level: 'MEDIUM',
@@ -107,11 +132,11 @@ const gameCate = [
       },
     ],
     games: [
-      { src: '/images/top/category/thumb-game-1.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-2.png', size: 1, url: '#' },
-      { src: '/images/top/category/panda.png', size: 2, url: '#' },
-      { src: '/images/top/category/thumb-game-3.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-4.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-1.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-2.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/panda.png', size: 2, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-3.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-4.png', size: 1, url: '#' },
     ],
   },
   {
@@ -125,11 +150,11 @@ const gameCate = [
       },
     ],
     games: [
-      { src: '/images/top/category/thumb-game-1.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-2.png', size: 1, url: '#' },
-      { src: '/images/top/category/poker.png', size: 2, url: '#' },
-      { src: '/images/top/category/thumb-game-3.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-4.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-1.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-2.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/poker.png', size: 2, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-3.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-4.png', size: 1, url: '#' },
     ],
   },
   {
@@ -142,11 +167,11 @@ const gameCate = [
       },
     ],
     games: [
-      { src: '/images/top/category/thumb-game-1.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-2.png', size: 1, url: '#' },
-      { src: '/images/top/category/panda.png', size: 2, url: '#' },
-      { src: '/images/top/category/thumb-game-3.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-4.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-1.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-2.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/panda.png', size: 2, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-3.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-4.png', size: 1, url: '#' },
     ],
   },
   {
@@ -160,11 +185,11 @@ const gameCate = [
       },
     ],
     games: [
-      { src: '/images/top/category/thumb-game-1.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-2.png', size: 1, url: '#' },
-      { src: '/images/top/category/poker.png', size: 2, url: '#' },
-      { src: '/images/top/category/thumb-game-3.png', size: 1, url: '#' },
-      { src: '/images/top/category/thumb-game-4.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-1.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-2.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/poker.png', size: 2, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-3.png', size: 1, url: '#' },
+      { src: '/interview-nevel/images/top/category/thumb-game-4.png', size: 1, url: '#' },
     ],
   },
 ];
