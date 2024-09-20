@@ -6,6 +6,7 @@ export interface FooterMenuProps {
   className?: string;
   menus: {
     name: string;
+    nameSP?: string;
     link?: string;
     active?: boolean;
   }[];
@@ -16,7 +17,8 @@ export const FooterMenu: FC<FooterMenuProps> = (props) => (
     {props.menus.map((menu, idx) => (
       <li key={Number(idx)}>
         <Link className={cn(link({ type: menu.active ? 'active' : null }))} href={menu.link ?? '#'}>
-          {menu.name}
+          <span className="md:hidden">{menu.nameSP ?? menu.name}</span>
+          <span className="max-md:hidden">{menu.name}</span>
         </Link>
       </li>
     ))}
