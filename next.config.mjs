@@ -7,8 +7,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
     loader: "imgix",
-    path: "https://tnthangvn.github.io/",
-  }
+    path: "https://tnthangvn.github.io" + basePath,
+  },
+  assetPrefix: 'https://tnthangvn.github.io' + basePath
 };
 
 export default nextConfig;
