@@ -63,10 +63,15 @@ export const OverviewSlider: FC<OverviewSliderProps> = (props) => (
       <SwiperSlide key={Number(i)} className={cn('relative')}>
         <OverviewSliderItem
           banner={game.banner}
+          bg={game.bg}
+          className={cn(game.mode?.pc ? 'max-md:hidden' : '', game.mode?.sp ? 'md:hidden' : '')}
           description={game.description}
+          level={game.level}
           link={game.link}
           name={game.name}
+          ratting={game.ratting}
           thumbnail={game.thumbnail}
+          totalWin={game.totalWin}
         />
       </SwiperSlide>
     ))}
